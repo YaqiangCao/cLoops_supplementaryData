@@ -1,109 +1,109 @@
-2018-04-09 16:40:26 root   INFO     Command line: cLoops -f GSM1872886_GM12878_CTCF_ChIA-PET_chr21_hg38.bedpe.gz -o chiapet -m 1 -eps 0 -minPts 0 -p 1 -w True -j True -s True -c  -hic False -cut 0 -plot False
-2018-04-09 16:40:26 root   INFO     mode:1	 eps:[500, 1000, 2000]	 minPts:[5]	 hic:0	
-2018-04-09 16:40:26 root   INFO     Parsing PETs from GSM1872886_GM12878_CTCF_ChIA-PET_chr21_hg38.bedpe.gz, requiring initial distance cutoff > 0
-2018-04-09 16:40:27 root   INFO     Totaly 99674 PETs from GSM1872886_GM12878_CTCF_ChIA-PET_chr21_hg38.bedpe.gz, in which 99674 cis PETs
-2018-04-09 16:40:27 root   INFO     Clustering chr21 and chr21 using eps as 500, minPts as 5,pre-set distance cutoff as > 0
-2018-04-09 16:40:30 root   INFO     Clustering chr21 and chr21 finished. Estimated 10140 self-ligation reads and 4892 inter-ligation reads
-2018-04-09 16:40:30 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 4599 for eps=500,minPts=5
-2018-04-09 16:40:30 root   INFO     Clustering chr21 and chr21 using eps as 1000, minPts as 5,pre-set distance cutoff as > 4599
-2018-04-09 16:40:31 root   INFO     Clustering chr21 and chr21 finished. Estimated 0 self-ligation reads and 5336 inter-ligation reads
-2018-04-09 16:40:31 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 13531 for eps=1000,minPts=5
-2018-04-09 16:40:31 root   INFO     Clustering chr21 and chr21 using eps as 2000, minPts as 5,pre-set distance cutoff as > 13531
-2018-04-09 16:40:32 root   INFO     Clustering chr21 and chr21 finished. Estimated 0 self-ligation reads and 6709 inter-ligation reads
-2018-04-09 16:40:32 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 11104 for eps=2000,minPts=5
-2018-04-09 16:40:32 root   INFO     Starting estimate significance for interactions using distance cutoff as 4599
-2018-04-09 16:40:35 root   INFO     Converting chiapet.loop to washU long range interaction track.
-2018-04-09 16:40:35 root   INFO     Converting chiapet.loop to washU long range interaction track finished.
-2018-04-09 16:40:35 root   INFO     Converting chiapet.loop to Juicebox 2D annotation feature.
-2018-04-09 16:40:35 root   INFO     Converting chiapet.loop to Juicebox 2D annotation feature finished.
-2018-04-09 16:40:35 root   INFO     cLoops finished. Used CPU time: 0:00:08.358535 Bye!
+2018-04-09 20:38:50 root   INFO     Command line: cLoops -f GSM1872886_GM12878_CTCF_ChIA-PET_chr21_hg38.bedpe.gz -o chiapet -m 1 -eps 0 -minPts 0 -p 1 -w True -j True -s True -c  -hic False -cut 0 -plot False
+2018-04-09 20:38:50 root   INFO     mode:1	 eps:[500, 1000, 2000]	 minPts:[5]	 hic:0	
+2018-04-09 20:38:50 root   INFO     Parsing PETs from GSM1872886_GM12878_CTCF_ChIA-PET_chr21_hg38.bedpe.gz, requiring initial distance cutoff > 0
+2018-04-09 20:38:50 root   INFO     Totaly 99674 PETs from GSM1872886_GM12878_CTCF_ChIA-PET_chr21_hg38.bedpe.gz, in which 99674 cis PETs
+2018-04-09 20:38:50 root   INFO     Clustering chr21 and chr21 using eps as 500, minPts as 5,pre-set distance cutoff as > 0
+2018-04-09 20:38:53 root   INFO     Clustering chr21 and chr21 finished. Estimated 10140 self-ligation reads and 4892 inter-ligation reads
+2018-04-09 20:38:53 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 4599 for eps=500,minPts=5
+2018-04-09 20:38:53 root   INFO     Clustering chr21 and chr21 using eps as 1000, minPts as 5,pre-set distance cutoff as > 4599
+2018-04-09 20:38:54 root   INFO     Clustering chr21 and chr21 finished. Estimated 0 self-ligation reads and 5336 inter-ligation reads
+2018-04-09 20:38:54 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 13531 for eps=1000,minPts=5
+2018-04-09 20:38:54 root   INFO     Clustering chr21 and chr21 using eps as 2000, minPts as 5,pre-set distance cutoff as > 13531
+2018-04-09 20:38:55 root   INFO     Clustering chr21 and chr21 finished. Estimated 0 self-ligation reads and 6709 inter-ligation reads
+2018-04-09 20:38:55 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 11104 for eps=2000,minPts=5
+2018-04-09 20:38:55 root   INFO     Starting estimate significance for interactions using distance cutoff as 4599
+2018-04-09 20:38:58 root   INFO     Converting chiapet.loop to washU long range interaction track.
+2018-04-09 20:38:58 root   INFO     Converting chiapet.loop to washU long range interaction track finished.
+2018-04-09 20:38:58 root   INFO     Converting chiapet.loop to Juicebox 2D annotation feature.
+2018-04-09 20:38:58 root   INFO     Converting chiapet.loop to Juicebox 2D annotation feature finished.
+2018-04-09 20:38:58 root   INFO     cLoops finished. Used CPU time: 0:00:07.976435 Bye!
 
 
 
-2018-04-09 16:40:42 root   INFO     Command line: cLoops -f GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio1.bedpe.gz,GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio2.bedpe.gz -o hichip -m 4 -eps 0 -minPts 0 -p 1 -w True -j True -s True -c  -hic False -cut 0 -plot False
-2018-04-09 16:40:42 root   INFO     mode:4	 eps:[2500, 5000, 7500, 10000]	 minPts:[30, 20]	 hic:1	
-2018-04-09 16:40:42 root   INFO     Parsing PETs from GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio1.bedpe.gz, requiring initial distance cutoff > 0
-2018-04-09 16:40:44 root   INFO     Parsing PETs from GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio2.bedpe.gz, requiring initial distance cutoff > 0
-2018-04-09 16:40:48 root   INFO     Totaly 1031294 PETs from GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio1.bedpe.gz,GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio2.bedpe.gz, in which 1031294 cis PETs
-2018-04-09 16:40:50 root   INFO     Clustering chr21 and chr21 using eps as 2500, minPts as 30,pre-set distance cutoff as > 0
-2018-04-09 16:41:12 root   INFO     Clustering chr21 and chr21 finished. Estimated 26571 self-ligation reads and 1858 inter-ligation reads
-2018-04-09 16:41:12 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 7870 for eps=2500,minPts=30
-2018-04-09 16:41:12 root   INFO     Clustering chr21 and chr21 using eps as 2500, minPts as 20,pre-set distance cutoff as > 7870
-2018-04-09 16:41:26 root   INFO     Clustering chr21 and chr21 finished. Estimated 0 self-ligation reads and 4062 inter-ligation reads
-2018-04-09 16:41:26 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 10475 for eps=2500,minPts=20
-2018-04-09 16:41:26 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 30,pre-set distance cutoff as > 10475
-2018-04-09 16:41:45 root   INFO     Clustering chr21 and chr21 finished. Estimated 2621 self-ligation reads and 12189 inter-ligation reads
-2018-04-09 16:41:45 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 10738 for eps=5000,minPts=30
-2018-04-09 16:41:45 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 20,pre-set distance cutoff as > 10738
-2018-04-09 16:42:07 root   INFO     Clustering chr21 and chr21 finished. Estimated 9144 self-ligation reads and 34989 inter-ligation reads
-2018-04-09 16:42:07 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 9311 for eps=5000,minPts=20
-2018-04-09 16:42:07 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 30,pre-set distance cutoff as > 9311
-2018-04-09 16:42:38 root   INFO     Clustering chr21 and chr21 finished. Estimated 58068 self-ligation reads and 28788 inter-ligation reads
-2018-04-09 16:42:38 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 12422 for eps=7500,minPts=30
-2018-04-09 16:42:38 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 20,pre-set distance cutoff as > 12422
-2018-04-09 16:43:08 root   INFO     Clustering chr21 and chr21 finished. Estimated 84676 self-ligation reads and 44694 inter-ligation reads
-2018-04-09 16:43:08 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 14993 for eps=7500,minPts=20
-2018-04-09 16:43:09 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 30,pre-set distance cutoff as > 14993
-2018-04-09 16:43:46 root   INFO     Clustering chr21 and chr21 finished. Estimated 91364 self-ligation reads and 34169 inter-ligation reads
-2018-04-09 16:43:46 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 17906 for eps=10000,minPts=30
-2018-04-09 16:43:46 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 20,pre-set distance cutoff as > 17906
-2018-04-09 16:44:19 root   INFO     Clustering chr21 and chr21 finished. Estimated 140718 self-ligation reads and 42335 inter-ligation reads
-2018-04-09 16:44:20 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 23182 for eps=10000,minPts=20
-2018-04-09 16:44:20 root   INFO     Starting estimate significance for interactions using distance cutoff as 7870
-2018-04-09 16:45:53 root   INFO     Converting hichip.loop to washU long range interaction track.
-2018-04-09 16:45:53 root   INFO     Converting hichip.loop to washU long range interaction track finished.
-2018-04-09 16:45:53 root   INFO     Converting hichip.loop to Juicebox 2D annotation feature.
-2018-04-09 16:45:53 root   INFO     Converting hichip.loop to Juicebox 2D annotation feature finished.
-2018-04-09 16:45:53 root   INFO     cLoops finished. Used CPU time: 0:05:10.434283 Bye!
+2018-04-09 20:39:05 root   INFO     Command line: cLoops -f GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio1.bedpe.gz,GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio2.bedpe.gz -o hichip -m 4 -eps 0 -minPts 0 -p 1 -w True -j True -s True -c  -hic False -cut 0 -plot False
+2018-04-09 20:39:05 root   INFO     mode:4	 eps:[2500, 5000, 7500, 10000]	 minPts:[30, 20]	 hic:1	
+2018-04-09 20:39:05 root   INFO     Parsing PETs from GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio1.bedpe.gz, requiring initial distance cutoff > 0
+2018-04-09 20:39:07 root   INFO     Parsing PETs from GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio2.bedpe.gz, requiring initial distance cutoff > 0
+2018-04-09 20:39:10 root   INFO     Totaly 1031294 PETs from GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio1.bedpe.gz,GSE80820_GM12878_cohesin_HiChIP_chr21_hg38_bio2.bedpe.gz, in which 1031294 cis PETs
+2018-04-09 20:39:13 root   INFO     Clustering chr21 and chr21 using eps as 2500, minPts as 30,pre-set distance cutoff as > 0
+2018-04-09 20:39:34 root   INFO     Clustering chr21 and chr21 finished. Estimated 26571 self-ligation reads and 1858 inter-ligation reads
+2018-04-09 20:39:34 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 7870 for eps=2500,minPts=30
+2018-04-09 20:39:34 root   INFO     Clustering chr21 and chr21 using eps as 2500, minPts as 20,pre-set distance cutoff as > 7870
+2018-04-09 20:39:48 root   INFO     Clustering chr21 and chr21 finished. Estimated 0 self-ligation reads and 4062 inter-ligation reads
+2018-04-09 20:39:48 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 10475 for eps=2500,minPts=20
+2018-04-09 20:39:48 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 30,pre-set distance cutoff as > 10475
+2018-04-09 20:40:07 root   INFO     Clustering chr21 and chr21 finished. Estimated 2621 self-ligation reads and 12189 inter-ligation reads
+2018-04-09 20:40:07 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 10738 for eps=5000,minPts=30
+2018-04-09 20:40:07 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 20,pre-set distance cutoff as > 10738
+2018-04-09 20:40:28 root   INFO     Clustering chr21 and chr21 finished. Estimated 9144 self-ligation reads and 34989 inter-ligation reads
+2018-04-09 20:40:28 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 9311 for eps=5000,minPts=20
+2018-04-09 20:40:28 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 30,pre-set distance cutoff as > 9311
+2018-04-09 20:40:59 root   INFO     Clustering chr21 and chr21 finished. Estimated 58068 self-ligation reads and 28788 inter-ligation reads
+2018-04-09 20:40:59 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 12422 for eps=7500,minPts=30
+2018-04-09 20:40:59 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 20,pre-set distance cutoff as > 12422
+2018-04-09 20:41:28 root   INFO     Clustering chr21 and chr21 finished. Estimated 84676 self-ligation reads and 44694 inter-ligation reads
+2018-04-09 20:41:28 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 14993 for eps=7500,minPts=20
+2018-04-09 20:41:28 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 30,pre-set distance cutoff as > 14993
+2018-04-09 20:42:04 root   INFO     Clustering chr21 and chr21 finished. Estimated 91364 self-ligation reads and 34169 inter-ligation reads
+2018-04-09 20:42:04 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 17906 for eps=10000,minPts=30
+2018-04-09 20:42:04 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 20,pre-set distance cutoff as > 17906
+2018-04-09 20:42:37 root   INFO     Clustering chr21 and chr21 finished. Estimated 140718 self-ligation reads and 42335 inter-ligation reads
+2018-04-09 20:42:38 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 23182 for eps=10000,minPts=20
+2018-04-09 20:42:38 root   INFO     Starting estimate significance for interactions using distance cutoff as 7870
+2018-04-09 20:44:09 root   INFO     Converting hichip.loop to washU long range interaction track.
+2018-04-09 20:44:09 root   INFO     Converting hichip.loop to washU long range interaction track finished.
+2018-04-09 20:44:09 root   INFO     Converting hichip.loop to Juicebox 2D annotation feature.
+2018-04-09 20:44:09 root   INFO     Converting hichip.loop to Juicebox 2D annotation feature finished.
+2018-04-09 20:44:09 root   INFO     cLoops finished. Used CPU time: 0:05:03.597789 Bye!
 
 
 
-2018-04-09 16:46:46 root   INFO     Command line: cLoops -f GSM1551552_GM12878_HiC_chr21_hg38.bedpe.gz -o hic -m 3 -eps 0 -minPts 0 -p 1 -w True -j True -s True -c  -hic False -cut 0 -plot False
-2018-04-09 16:46:46 root   INFO     mode:3	 eps:[5000, 7500, 10000]	 minPts:[50, 40, 30, 20]	 hic:1	
-2018-04-09 16:46:46 root   INFO     Parsing PETs from GSM1551552_GM12878_HiC_chr21_hg38.bedpe.gz, requiring initial distance cutoff > 0
-2018-04-09 16:46:58 root   INFO     Totaly 2091305 PETs from GSM1551552_GM12878_HiC_chr21_hg38.bedpe.gz, in which 2091305 cis PETs
-2018-04-09 16:47:03 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 50,pre-set distance cutoff as > 0
-2018-04-09 16:48:49 root   INFO     Clustering chr21 and chr21 finished. Estimated 287484 self-ligation reads and 7890 inter-ligation reads
-2018-04-09 16:48:49 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 12095 for eps=5000,minPts=50
-2018-04-09 16:48:49 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 40,pre-set distance cutoff as > 12095
-2018-04-09 16:49:44 root   INFO     Clustering chr21 and chr21 finished. Estimated 31919 self-ligation reads and 39622 inter-ligation reads
-2018-04-09 16:49:44 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 9478 for eps=5000,minPts=40
-2018-04-09 16:49:44 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 30,pre-set distance cutoff as > 9478
-2018-04-09 16:50:48 root   INFO     Clustering chr21 and chr21 finished. Estimated 125136 self-ligation reads and 48312 inter-ligation reads
-2018-04-09 16:50:48 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 11996 for eps=5000,minPts=30
-2018-04-09 16:50:48 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 20,pre-set distance cutoff as > 11996
-2018-04-09 16:51:56 root   INFO     Clustering chr21 and chr21 finished. Estimated 173912 self-ligation reads and 79684 inter-ligation reads
-2018-04-09 16:51:56 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 16616 for eps=5000,minPts=20
-2018-04-09 16:51:57 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 50,pre-set distance cutoff as > 16616
-2018-04-09 16:53:17 root   INFO     Clustering chr21 and chr21 finished. Estimated 94785 self-ligation reads and 40707 inter-ligation reads
-2018-04-09 16:53:17 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 15599 for eps=7500,minPts=50
-2018-04-09 16:53:17 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 40,pre-set distance cutoff as > 15599
-2018-04-09 16:54:45 root   INFO     Clustering chr21 and chr21 finished. Estimated 159662 self-ligation reads and 49933 inter-ligation reads
-2018-04-09 16:54:45 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 18497 for eps=7500,minPts=40
-2018-04-09 16:54:45 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 30,pre-set distance cutoff as > 18497
-2018-04-09 16:56:02 root   INFO     Clustering chr21 and chr21 finished. Estimated 210908 self-ligation reads and 54071 inter-ligation reads
-2018-04-09 16:56:02 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 22423 for eps=7500,minPts=30
-2018-04-09 16:56:03 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 20,pre-set distance cutoff as > 22423
-2018-04-09 16:57:17 root   INFO     Clustering chr21 and chr21 finished. Estimated 282565 self-ligation reads and 84153 inter-ligation reads
-2018-04-09 16:57:17 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 30916 for eps=7500,minPts=20
-2018-04-09 16:57:19 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 50,pre-set distance cutoff as > 30916
-2018-04-09 16:58:49 root   INFO     Clustering chr21 and chr21 finished. Estimated 125522 self-ligation reads and 45663 inter-ligation reads
-2018-04-09 16:58:50 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 21698 for eps=10000,minPts=50
-2018-04-09 16:58:50 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 40,pre-set distance cutoff as > 21698
-2018-04-09 17:00:34 root   INFO     Clustering chr21 and chr21 finished. Estimated 262685 self-ligation reads and 43766 inter-ligation reads
-2018-04-09 17:00:34 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 29542 for eps=10000,minPts=40
-2018-04-09 17:00:35 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 30,pre-set distance cutoff as > 29542
-2018-04-09 17:02:03 root   INFO     Clustering chr21 and chr21 finished. Estimated 283235 self-ligation reads and 58384 inter-ligation reads
-2018-04-09 17:02:04 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 34145 for eps=10000,minPts=30
-2018-04-09 17:02:05 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 20,pre-set distance cutoff as > 34145
-2018-04-09 17:03:28 root   INFO     Clustering chr21 and chr21 finished. Estimated 368388 self-ligation reads and 85444 inter-ligation reads
-2018-04-09 17:03:29 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 45269 for eps=10000,minPts=20
-2018-04-09 17:03:31 root   INFO     Starting estimate significance for interactions using distance cutoff as 9478
-2018-04-09 17:10:09 root   INFO     Converting hic.loop to washU long range interaction track.
-2018-04-09 17:10:09 root   INFO     Converting hic.loop to washU long range interaction track finished.
-2018-04-09 17:10:09 root   INFO     Converting hic.loop to Juicebox 2D annotation feature.
-2018-04-09 17:10:09 root   INFO     Converting hic.loop to Juicebox 2D annotation feature finished.
-2018-04-09 17:10:09 root   INFO     cLoops finished. Used CPU time: 0:23:22.343985 Bye!
+2018-04-09 20:44:59 root   INFO     Command line: cLoops -f GSM1551552_GM12878_HiC_chr21_hg38.bedpe.gz -o hic -m 3 -eps 0 -minPts 0 -p 1 -w True -j True -s True -c  -hic False -cut 0 -plot False
+2018-04-09 20:44:59 root   INFO     mode:3	 eps:[5000, 7500, 10000]	 minPts:[50, 40, 30, 20]	 hic:1	
+2018-04-09 20:44:59 root   INFO     Parsing PETs from GSM1551552_GM12878_HiC_chr21_hg38.bedpe.gz, requiring initial distance cutoff > 0
+2018-04-09 20:45:11 root   INFO     Totaly 2091305 PETs from GSM1551552_GM12878_HiC_chr21_hg38.bedpe.gz, in which 2091305 cis PETs
+2018-04-09 20:45:16 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 50,pre-set distance cutoff as > 0
+2018-04-09 20:47:03 root   INFO     Clustering chr21 and chr21 finished. Estimated 287484 self-ligation reads and 7890 inter-ligation reads
+2018-04-09 20:47:03 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 12095 for eps=5000,minPts=50
+2018-04-09 20:47:04 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 40,pre-set distance cutoff as > 12095
+2018-04-09 20:47:58 root   INFO     Clustering chr21 and chr21 finished. Estimated 31919 self-ligation reads and 39622 inter-ligation reads
+2018-04-09 20:47:59 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 9478 for eps=5000,minPts=40
+2018-04-09 20:47:59 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 30,pre-set distance cutoff as > 9478
+2018-04-09 20:49:02 root   INFO     Clustering chr21 and chr21 finished. Estimated 125136 self-ligation reads and 48312 inter-ligation reads
+2018-04-09 20:49:02 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 11996 for eps=5000,minPts=30
+2018-04-09 20:49:02 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 20,pre-set distance cutoff as > 11996
+2018-04-09 20:50:04 root   INFO     Clustering chr21 and chr21 finished. Estimated 173912 self-ligation reads and 79684 inter-ligation reads
+2018-04-09 20:50:05 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 16616 for eps=5000,minPts=20
+2018-04-09 20:50:05 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 50,pre-set distance cutoff as > 16616
+2018-04-09 20:51:24 root   INFO     Clustering chr21 and chr21 finished. Estimated 94785 self-ligation reads and 40707 inter-ligation reads
+2018-04-09 20:51:25 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 15599 for eps=7500,minPts=50
+2018-04-09 20:51:25 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 40,pre-set distance cutoff as > 15599
+2018-04-09 20:52:48 root   INFO     Clustering chr21 and chr21 finished. Estimated 159662 self-ligation reads and 49933 inter-ligation reads
+2018-04-09 20:52:48 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 18497 for eps=7500,minPts=40
+2018-04-09 20:52:48 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 30,pre-set distance cutoff as > 18497
+2018-04-09 20:54:06 root   INFO     Clustering chr21 and chr21 finished. Estimated 210908 self-ligation reads and 54071 inter-ligation reads
+2018-04-09 20:54:06 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 22423 for eps=7500,minPts=30
+2018-04-09 20:54:07 root   INFO     Clustering chr21 and chr21 using eps as 7500, minPts as 20,pre-set distance cutoff as > 22423
+2018-04-09 20:55:19 root   INFO     Clustering chr21 and chr21 finished. Estimated 282565 self-ligation reads and 84153 inter-ligation reads
+2018-04-09 20:55:19 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 30916 for eps=7500,minPts=20
+2018-04-09 20:55:20 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 50,pre-set distance cutoff as > 30916
+2018-04-09 20:56:50 root   INFO     Clustering chr21 and chr21 finished. Estimated 125522 self-ligation reads and 45663 inter-ligation reads
+2018-04-09 20:56:50 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 21698 for eps=10000,minPts=50
+2018-04-09 20:56:50 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 40,pre-set distance cutoff as > 21698
+2018-04-09 20:58:33 root   INFO     Clustering chr21 and chr21 finished. Estimated 262685 self-ligation reads and 43766 inter-ligation reads
+2018-04-09 20:58:33 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 29542 for eps=10000,minPts=40
+2018-04-09 20:58:34 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 30,pre-set distance cutoff as > 29542
+2018-04-09 21:00:05 root   INFO     Clustering chr21 and chr21 finished. Estimated 283235 self-ligation reads and 58384 inter-ligation reads
+2018-04-09 21:00:05 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 34145 for eps=10000,minPts=30
+2018-04-09 21:00:06 root   INFO     Clustering chr21 and chr21 using eps as 10000, minPts as 20,pre-set distance cutoff as > 34145
+2018-04-09 21:01:30 root   INFO     Clustering chr21 and chr21 finished. Estimated 368388 self-ligation reads and 85444 inter-ligation reads
+2018-04-09 21:01:30 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 45269 for eps=10000,minPts=20
+2018-04-09 21:01:32 root   INFO     Starting estimate significance for interactions using distance cutoff as 9478
+2018-04-09 21:08:08 root   INFO     Converting hic.loop to washU long range interaction track.
+2018-04-09 21:08:08 root   INFO     Converting hic.loop to washU long range interaction track finished.
+2018-04-09 21:08:08 root   INFO     Converting hic.loop to Juicebox 2D annotation feature.
+2018-04-09 21:08:08 root   INFO     Converting hic.loop to Juicebox 2D annotation feature finished.
+2018-04-09 21:08:08 root   INFO     cLoops finished. Used CPU time: 0:23:08.303725 Bye!
 
 
 
