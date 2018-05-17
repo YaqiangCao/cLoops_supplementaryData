@@ -1,0 +1,2 @@
+2018-05-17 16:06:19 root   INFO     Command line: callStripes -d K562_HiChIP_H3K27ac_chr21 -o K562_HiChIP_H3K27ac_chr21 -eps 20000 -minPts 5 -pets 200 -ext 50 -c chr21 -p 1 -j True
+2018-05-17 16:21:02 root   INFO     callStripes finished. Bye! Used time:0:14:43.084901
