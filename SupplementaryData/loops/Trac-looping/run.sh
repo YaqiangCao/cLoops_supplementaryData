@@ -1,0 +1,2 @@
+cs=chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX
+cLoops -f ../2.cis_Pets/GSM2326178_CD4_Resting_TrAC-Looping_rep1-tech1.bedpe,../2.cis_Pets/GSM2326179_CD4_Resting_TrAC-Looping_rep2.bedpe,../2.cis_Pets/GSM2326180_CD4_Resting_TrAC-Looping_rep1-tech2.bedpe,../2.cis_Pets/GSM2782295_CD4_Resting_TrAC-Looping_rep3.bedpe,../2.cis_Pets/GSM2782296_CD4_Resting_TrAC-Looping_rep4.bedpe -o resting_all_cut2k-minPts5-eps5k-maxcut -eps 500,1000,2000,5000 -minPts 5 -p 5 -w -j -cut 2000 -s -c $cs -max_cut
