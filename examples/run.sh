@@ -25,5 +25,7 @@ callStripes -d K562_HiChIP_H3K27ac_chr21 -o K562_HiChIP_H3K27ac_chr21 -c chr21 -
 jd2juice -d K562_HiChIP_H3K27ac_chr21/ -o K562_HiChIP_H3K27ac_chr21 -org hg38
 
 #2018-11-07 added, call loops for Trac-looping data
-
+cLoops -f GSM2326178_CD4_Resting_Trac-looping_rep1-tech1_chr21_hg19.bedpe.gz,GSM2326179_CD4_Resting_Trac-looping_rep2_chr21_hg19.bedpe.gz,GSM2326180_CD4_Resting_Trac-looping_rep1-tech2_chr21_hg19.bedpe.gz,GSM2782295_CD4_Resting_Trac-looping_rep3_chr21_hg19.bedpe.gz,GSM2782296_CD4_Resting_Trac-looping_rep4_chr21_hg19.bedpe.gz -o Trac-looping_chr21 -eps 500,1000,2000,5000 -minPts 5 -p 5 -w -j -cut 2000 -s -c chr21 -max_cut
+#for visualization in washU
+jd2washU -d Trac-looping_chr21 -o Trac-looping_chr21 
 
