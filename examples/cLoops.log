@@ -106,4 +106,32 @@
 2018-04-09 21:08:08 root   INFO     cLoops finished. Used CPU time: 0:23:08.303725 Bye!
 
 
+2018-11-07 10:32:54 root   INFO     Command line: cLoops -f GSM2326178_CD4_Resting_Trac-ooping_rep1-tech1_chr21_hg19.bedpe.gz,GSM2326179_CD4_Resting_Trac-looping_rep2_chr21_hg19.bedpe.gz,GSM2326180_CD4_Resting_Trac-looping_rep1-tech2_chr21_hg19.bedpe.gz,GSM2782295_CD4_Resting_Trac-looping_rep3_chr21_hg19.bedpe.gz,GSM2782296_CD4_Resting_Trac-looping_rep4_chr21_hg19.bedpe.gz -o Trac-looping_chr21 -m 0 -eps 500,1000,2000,5000 -minPts 5 -p 5 -w True -j True -s True -c chr21 -hic False -cut 2000 -plot False -max_cut True
+2018-11-07 10:32:54 root   INFO     mode:0	 eps:[500, 1000, 2000, 5000]	 minPts:[5]	 hic:False	
+2018-11-07 10:32:54 root   INFO     Parsing PETs from GSM2326178_CD4_Resting_Trac-ooping_rep1-tech1_chr21_hg19.bedpe.gz, requiring initial distance cutoff > 2000
+2018-11-07 10:32:56 root   INFO     Parsing PETs from GSM2326179_CD4_Resting_Trac-looping_rep2_chr21_hg19.bedpe.gz, requiring initial distance cutoff > 2000
+2018-11-07 10:32:57 root   INFO     Parsing PETs from GSM2326180_CD4_Resting_Trac-looping_rep1-tech2_chr21_hg19.bedpe.gz, requiring initial distance cutoff > 2000
+2018-11-07 10:32:58 root   INFO     Parsing PETs from GSM2782295_CD4_Resting_Trac-looping_rep3_chr21_hg19.bedpe.gz, requiring initial distance cutoff > 2000
+2018-11-07 10:33:01 root   INFO     Parsing PETs from GSM2782296_CD4_Resting_Trac-looping_rep4_chr21_hg19.bedpe.gz, requiring initial distance cutoff > 2000
+2018-11-07 10:33:07 root   INFO     Totaly 2739185 PETs from GSM2326178_CD4_Resting_Trac-ooping_rep1-tech1_chr21_hg19.bedpe.gz,GSM2326179_CD4_Resting_Trac-looping_rep2_chr21_hg19.bedpe.gz,GSM2326180_CD4_Resting_Trac-looping_rep1-tech2_chr21_hg19.bedpe.gz,GSM2782295_CD4_Resting_Trac-looping_rep3_chr21_hg19.bedpe.gz,GSM2782296_CD4_Resting_Trac-looping_rep4_chr21_hg19.bedpe.gz, in which 303525 cis PETs
+2018-11-07 10:33:08 root   INFO     Clustering chr21 and chr21 using eps as 500, minPts as 5,pre-set distance cutoff as > 2000
+2018-11-07 10:33:18 root   INFO     Clustering chr21 and chr21 finished. Estimated 862 self-ligation reads and 24984 inter-ligation reads
+2018-11-07 10:33:18 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 3552 for eps=500,minPts=5
+2018-11-07 10:33:18 root   INFO     Clustering chr21 and chr21 using eps as 1000, minPts as 5,pre-set distance cutoff as > 3552
+2018-11-07 10:33:25 root   INFO     Clustering chr21 and chr21 finished. Estimated 790 self-ligation reads and 20795 inter-ligation reads
+2018-11-07 10:33:26 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 4586 for eps=1000,minPts=5
+2018-11-07 10:33:26 root   INFO     Clustering chr21 and chr21 using eps as 2000, minPts as 5,pre-set distance cutoff as > 4586
+2018-11-07 10:33:34 root   INFO     Clustering chr21 and chr21 finished. Estimated 7540 self-ligation reads and 28991 inter-ligation reads
+2018-11-07 10:33:36 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 6715 for eps=2000,minPts=5
+2018-11-07 10:33:36 root   INFO     Clustering chr21 and chr21 using eps as 5000, minPts as 5,pre-set distance cutoff as > 6715
+2018-11-07 10:33:45 root   INFO     Clustering chr21 and chr21 finished. Estimated 37468 self-ligation reads and 21070 inter-ligation reads
+2018-11-07 10:33:47 root   INFO     Estimated inter-ligation and self-ligation distance cutoff as 11206 for eps=5000,minPts=5
+2018-11-07 10:33:47 root   INFO     Starting estimate significance for interactions using distance cutoff as 11206
+2018-11-07 10:34:11 root   INFO     Converting Trac-looping_chr21.loop to washU long range interaction track.
+2018-11-07 10:34:11 root   INFO     Converting Trac-looping_chr21.loop to washU long range interaction track finished.
+2018-11-07 10:34:11 root   INFO     Converting Trac-looping_chr21.loop to Juicebox 2D annotation feature.
+2018-11-07 10:34:11 root   INFO     Converting Trac-looping_chr21.loop to Juicebox 2D annotation feature finished.
+2018-11-07 10:34:11 root   INFO     cLoops finished. Used CPU time: 0:01:16.316530 Bye!
+
+
 
